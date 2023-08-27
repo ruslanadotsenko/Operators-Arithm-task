@@ -18,10 +18,10 @@ public class Main {
         days = 7;
 
         salesAmount = quota * price;
-        System.out.printf("Product: %s, sales %s %.2f%n", name, CURRENCY, salesAmount);
+        System.out.printf("Product: %s, sales %s %.2f.%n", name, CURRENCY, salesAmount);
 
         avgSum = salesAmount / days;
-        System.out.printf("Product: %s, sales by day %s %.2f%n", name, CURRENCY, avgSum);
+        System.out.printf("Product: %s, sales by day %s %.2f.%n", name, CURRENCY, avgSum);
 
         name = "Apples";
         quota = 117;
@@ -29,10 +29,10 @@ public class Main {
         days = 7;
 
         salesAmount = quota * price;
-        System.out.printf("Product: %s, sales %s %.2f%n", name, CURRENCY, salesAmount);
+        System.out.printf("Product: %s, sales %s %.2f.%n", name, CURRENCY, salesAmount);
 
         avgSum = salesAmount / days;
-        System.out.printf("Product: %s, sales by day %s %.2f%n", name, CURRENCY, avgSum);
+        System.out.printf("Product: %s, sales by day %s %.2f.%n", name, CURRENCY, avgSum);
 
     }
 }
